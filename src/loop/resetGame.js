@@ -1,3 +1,4 @@
+// src/loop/resetGame.js
 export async function resetGame() {
   await Promise.all([
     import('../game/player.js').then(module => module.resetPlayer?.()),

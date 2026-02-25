@@ -1,3 +1,4 @@
+// src/score/score.js
 import { getHighScore, setHighScore } from "./storage.js";
 
 export let score = 0;

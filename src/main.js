@@ -1,3 +1,4 @@
+// src/main.js
 import { animate } from "./loop/animate.js";
 import { initHUD } from "./ui/hud.js";
 import { createRoad } from "./game/road.js";

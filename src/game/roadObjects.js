@@ -1,3 +1,4 @@
+// src/game/roadObjects.js
 import * as THREE from "three";
 import { scene } from "../core/scene.js";
 

@@ -1,3 +1,4 @@
+// src/state/gameState.js
 export const GameState = {
   MENU: "menu",
   PLAYING: "playing",

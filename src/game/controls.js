@@ -1,3 +1,4 @@
+// src/game/controls.js
 import { moveLeft, moveRight } from "../game/player.js";
 import { enableNitro, disableNitro, currentState, GameState, setState } from "../state/gameState.js";
 import { togglePauseMenu } from "../ui/menu.js"

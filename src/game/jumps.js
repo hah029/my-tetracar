@@ -1,3 +1,4 @@
+// src/game/jumps.js
 // jumps.js - обновлённая версия с использованием нового коллайдера
 import * as THREE from "three";
 import { scene } from "../core/scene.js";

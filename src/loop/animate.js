@@ -1,3 +1,4 @@
+// src/loop/animate.js
 import * as THREE from "three";
 import { scene } from "../core/scene.js";
 import { camera } from "../core/camera.js";
@@ -91,7 +92,6 @@ export function animate() {
 
   // Если не в игре, просто рендерим
   if (currentState !== GameState.PLAYING) {
-    renderer.render(scene, camera);
     return;
   }
 

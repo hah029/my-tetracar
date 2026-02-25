@@ -1,3 +1,4 @@
+// src/core/renderer.js
 import * as THREE from "three";
 
 export const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });

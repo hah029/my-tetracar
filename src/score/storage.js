@@ -1,3 +1,4 @@
+// src/score/storage.js
 const KEY = "drag_race_high_score";
 
 export function getHighScore() {

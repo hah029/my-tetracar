@@ -1,3 +1,4 @@
+// src/ui/hud.js
 // ui/hud.js
 import { score, highScore } from "../score/score.js";
 import { gameData } from "../state/gameState.js";

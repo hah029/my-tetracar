@@ -1,3 +1,4 @@
+// src/core/camera.js
 import * as THREE from "three";
 
 export const camera = new THREE.PerspectiveCamera(
