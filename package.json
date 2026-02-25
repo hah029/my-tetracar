@@ -11,6 +11,7 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "three": "^0.183.1"
+    "three": "^0.183.1",
+    "vite": "^5.4.21"
   }
 }

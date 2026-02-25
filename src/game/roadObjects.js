@@ -11,8 +11,6 @@ export function createSideObjects() {
   // параметры объектов: [geometry, material, yOffset]
   const objectTypes = [
     [new THREE.CylinderGeometry(0.1, 0.1, 0.5, 8), new THREE.MeshStandardMaterial({ color: 0xffff00 }), 0], // столбик
-    // [new THREE.BoxGeometry(0.5, 1, 0.5), new THREE.MeshStandardMaterial({ color: 0x00ff00 }), 0.5],   // знак
-    // [new THREE.ConeGeometry(0.5, 0.2, 8), new THREE.MeshStandardMaterial({ color: 0x964B00 }), 0.75]   // дерево
   ];
 
   const laneOffset = 6; // расстояние от центра дороги
@@ -36,8 +34,6 @@ export function updateSideObjects(speed) {
     // если объект вышел за камеру, переносим его назад
     if (sideObjects[i].position.z > 10) {
       sideObjects[i].position.z -= 210; // roadLength + запас
-      // sideObjects[i].position.x += (Math.random() * 0.5 - 0.25); // небольшое смещение по X
-      // sideObjects[i].position.z += Math.random() * 2 - 1; // небольшой рандом по Z
     }
   }
 }

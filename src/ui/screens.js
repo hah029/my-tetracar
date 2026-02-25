@@ -20,11 +20,12 @@ export function showMenu() {
   const menu = createOverlay();
 
   const title = document.createElement("h1");
-  title.innerText = "3D RACE";
+  title.innerText = "TETRA CARP";
 
   const btn = document.createElement("button");
-  btn.innerText = "START";
-  btn.style.fontSize = "24px";
+  btn.innerText = "СТАРТ";
+  btn.style.fontSize = "18px";
+  btn.style.padding = "2px";
 
   btn.onclick = () => {
     document.body.removeChild(menu);
@@ -39,11 +40,12 @@ export function showGameOver() {
   const over = createOverlay();
 
   const title = document.createElement("h1");
-  title.innerText = "GAME OVER";
+  title.innerText = "ПОТРАЧЕНО";
 
   const btn = document.createElement("button");
-  btn.innerText = "RESTART";
-  btn.style.fontSize = "24px";
+  btn.innerText = "ПОВТОРИТЬ";
+  btn.style.fontSize = "18px";
+  btn.style.padding = "2px";
 
   btn.onclick = () => {
     document.body.removeChild(over);

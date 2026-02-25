@@ -1,12 +1,12 @@
 import { spawnObstacleRow } from "./obstacles.js";
 import { createJump } from "./jumps.js";
-import { LANES } from "./player.js";
+import { LANES } from "./lanes.js";
 
-const SPAWN_Z = -60;
-const JUMP_DISTANCE_MIN = 4;
-const JUMP_DISTANCE_MAX = 12;
+const SPAWN_Z = -40;
+const JUMP_DISTANCE_MIN = 2;
+const JUMP_DISTANCE_MAX = 8;
 const SPEED_FOR_MAX_JUMP = 3;
-const JUMP_CHANCE = 0.2;
+const JUMP_CHANCE = 0.1;
 
 function getJumpDistance(speed) {
   const s = Number(speed) || 0.5;
